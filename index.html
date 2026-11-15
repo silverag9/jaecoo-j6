@@ -21,11 +21,15 @@
                         <p class="text-xs text-slate-400">Community Knowledge Base & FAQ</p>
                     </div>
                 </div>
-                <div class="flex items-center space-x-2">
-                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                <div class="flex items-center space-x-2 sm:space-x-3">
+                    <span class="hidden sm:inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
                         <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5 animate-pulse"></span>
                         Active Community DB
                     </span>
+                    <a href="#supportModal" id="openSupportBtn" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/30 hover:bg-amber-500/20 transition-all shadow-lg cursor-pointer">
+                        <i class="fa-solid fa-mug-hot"></i>
+                        <span>Buy Me Milo</span>
+                    </a>
                 </div>
             </div>
         </header>
@@ -104,7 +108,7 @@
                     <i class="fa-solid fa-mug-hot text-emerald-400"></i>
                     <span>Found this knowledge base helpful?</span>
                 </div>
-                <a href="#support" onclick="alert('Thank you for supporting the community! You can configure your PayNow or support link here.'); return false;" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold rounded-xl shadow-md transition-all flex items-center space-x-2">
+                <a href="#supportModal" onclick="document.getElementById('supportModal').classList.remove('hidden'); return false;" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold rounded-xl shadow-md transition-all flex items-center space-x-2">
                     <i class="fa-solid fa-heart text-red-300"></i>
                     <span>Buy me a Milo</span>
                 </a>
@@ -239,6 +243,66 @@
 
         // Initial Load
         loadFAQs();
+    </script>
+
+    <!-- Support Modal / Section -->
+    <div id="supportModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm hidden">
+        <div class="bg-slate-900 border border-slate-800 rounded-3xl max-w-md w-full p-6 shadow-2xl relative animate-in fade-in zoom-in duration-200">
+            <button id="closeSupportBtn" class="absolute top-4 right-4 text-slate-400 hover:text-white w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center transition-all cursor-pointer">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="text-center mb-5">
+                <div class="w-14 h-14 rounded-2xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-2xl mx-auto mb-3 border border-amber-500/20 shadow-lg">
+                    <i class="fa-solid fa-mug-hot"></i>
+                </div>
+                <h3 class="text-xl font-bold text-white">Buy Me a Milo</h3>
+                <p class="text-xs text-slate-300 mt-2 leading-relaxed">
+                    Thank you for your support! Please scan the QR code or click on the link below to buy me a Milo. The QR code image can be saved in your gallery if you wish to do so later.
+                </p>
+            </div>
+            
+            <div class="space-y-4">
+                <div class="bg-slate-950 p-4 rounded-2xl border border-slate-800 text-center">
+                    <div class="w-48 h-48 mx-auto bg-white rounded-xl border border-slate-800 flex items-center justify-center p-2 shadow-inner">
+                        <img src="30709.jpg" alt="PayLah QR Code" class="w-full h-full object-contain rounded-lg">
+                    </div>
+                    <p class="text-[11px] text-slate-400 mt-2">Long-press or right-click QR code to save to gallery</p>
+                </div>
+
+                <a href="https://www.dbs.com.sg/personal/mobile/paylink/index.html?tranRef=dnxu8N4Kjz" target="_blank" class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-amber-500 to-orange-500 text-slate-950 font-bold text-sm flex items-center justify-center space-x-2 shadow-lg shadow-amber-500/20 hover:opacity-95 transition-all">
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    <span>Open PayLah! Link</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script for Modal Interactivity -->
+    <script>
+        const openSupportBtn = document.getElementById('openSupportBtn');
+        const closeSupportBtn = document.getElementById('closeSupportBtn');
+        const supportModal = document.getElementById('supportModal');
+
+        if (openSupportBtn && supportModal) {
+            openSupportBtn.addEventListener('click', (e) => {
+                e.preventDefault();
+                supportModal.classList.remove('hidden');
+            });
+        }
+
+        if (closeSupportBtn && supportModal) {
+            closeSupportBtn.addEventListener('click', () => {
+                supportModal.classList.add('hidden');
+            });
+        }
+
+        if (supportModal) {
+            supportModal.addEventListener('click', (e) => {
+                if (e.target === supportModal) {
+                    supportModal.classList.add('hidden');
+                }
+            });
+        }
     </script>
 </body>
 </html>
