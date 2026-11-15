@@ -1,0 +1,86 @@
+[
+    {
+        "category": "infotainment",
+        "icon": "fa-mobile-screen",
+        "question": "What should I do if Android Auto or Apple CarPlay fails to connect?",
+        "answer": "Owners recommend two primary troubleshooting steps:<br><br>1. <strong>System Reboot:</strong> Hold down the two scroll/button wheels on the steering wheel for 10 seconds then release to force a system reboot.<br>2. <strong>Deep Reset:</strong> If a reboot doesn't work, lock the car and let it go to sleep for 20–30 minutes, after which the connection typically restores.<br><br><em>Tip: Alternative wireless dongles like 'WizCar' or 'Carlinkit' are also popular among members to bypass native infotainment limitations.</em>"
+    },
+    {
+        "category": "infotainment",
+        "icon": "fa-download",
+        "question": "How can I sideload extra apps (like YouTube, Spotify, Waze, or TikTok) onto the native interface?",
+        "answer": "Members have shared preparation guides and instructions to sideload apps using an Android phone and a thumbdrive (often coordinated via community members like Hons)."
+    },
+    {
+        "category": "charging",
+        "icon": "fa-bolt",
+        "question": "How do I stop an active DC charging session if the app or station fails to terminate it?",
+        "answer": "You can manually force-stop or pause the active session directly from the central touchscreen by going into the <strong>Charging</strong> or <strong>Energy</strong> control menu and tapping <strong>Stop Charging</strong>."
+    },
+    {
+        "category": "charging",
+        "icon": "fa-car-battery",
+        "question": "Should I charge the Jaecoo J6 battery to 100%?",
+        "answer": "Yes. The J6 uses a Lithium Iron Phosphate (LFP) battery, which safely supports and actually benefits from being charged to 100% regularly to ensure proper cell balancing by the Battery Management System (BMS)."
+    },
+    {
+        "category": "charging",
+        "icon": "fa-camera",
+        "question": "What causes heavy 12V battery drain when installing dashcams?",
+        "answer": "Parking surveillance modes (such as on the 70mai X800) draw continuous power, prompting owners to recommend installing dedicated external battery packs to reduce strain on the vehicle's 12V battery."
+    },
+    {
+        "category": "range",
+        "icon": "fa-road",
+        "question": "What real-world driving range can owners expect from the Cat A model?",
+        "answer": "While the official claim is 426 km, owners realistically report achieving <strong>300–350 km per charge</strong> depending on driving habits and accessories.<br><br>Some also recommend adjusting tire pressure to 250–280 kPa for a more agile steering feel."
+    },
+    {
+        "category": "range",
+        "icon": "fa-gas-pump",
+        "question": "What should I know about public charging networks like SP and TotalEnergies/BlueSG?",
+        "answer": "<ul><li><strong>SP Chargers:</strong> Commonly used, but carry a strict <strong>$0.50/minute idling fee</strong> after a 30-minute grace period.</li><li><strong>TotalEnergies / BlueSG:</strong> Convenient for overnight charging because they lack idling fees overnight (provided the vehicle is moved by 9 AM), though they charge at a slower ~3kW rate.</li></ul>"
+    },
+    {
+        "category": "mods",
+        "icon": "fa-boxes-packing",
+        "question": "How do I participate in community group buys (e.g., RHD frunks, hydraulic struts)?",
+        "answer": "Group buys are frequently organized by community volunteers in the chat. Members typically transfer a 50% deposit, submit a screenshot confirmation, and coordinate installations with partner workshops or installers (such as Nancy Tay Enterprise at Lengkok Bahru)."
+    },
+    {
+        "category": "mods",
+        "icon": "fa-shield-halved",
+        "question": "Can side steps and roof racks pass local vehicle inspections (LTA compliance)?",
+        "answer": "Yes, aftermarket side steps generally pass inspection as long as they do not exceed the legal overall width of the car. However, owners note that roof racks significantly increase car-wash time and require wind deflectors to mitigate highway wind noise."
+    },
+    {
+        "category": "maintenance",
+        "icon": "fa-wrench",
+        "question": "How do owners fix annoying door rattles or loose internal panels?",
+        "answer": "A popular fix is engaging soundproofing and dampening services for the door panels (single or multi-layer treatment), which reinforces loose clips and panels to eliminate rattles."
+    },
+    {
+        "category": "maintenance",
+        "icon": "fa-triangle-exclamation",
+        "question": "What does the red triangle warning light with a spanner symbol mean?",
+        "answer": "It indicates that the vehicle has reached the <strong>10,000 km service mark</strong>, which requires a quick reset and check at the service centre. (Standard scheduled servicing is required every 20,000 km or 12 months, following an optional 5,000 km check)."
+    },
+    {
+        "category": "tinting",
+        "icon": "fa-sun",
+        "question": "What are owners' opinions on the standard bundled V-Kool window tint?",
+        "answer": "While the complimentary V-Kool film provides decent UV protection, many owners note that its infrared (IR) rejection is weak, causing the dashboard to heat up quickly under scorching weather. Some members recommend asking the dealer for a window film rebate instead so you can opt to install a darker, higher-performance third-party tint (such as Infratint)."
+    },
+    {
+        "category": "tinting",
+        "icon": "fa-credit-card",
+        "question": "How should I manage physical cashcards when using the OBU?",
+        "answer": "If you have an active virtual cashcard (vCashCard) linked, owners strongly advise removing any physical cashcard from the slot to prevent accidental double-charging."
+    },
+    {
+        "category": "vep",
+        "icon": "fa-passport",
+        "question": "How long does the Malaysia VEP RFID registration and installation take?",
+        "answer": "Community members who completed the process shared that VEP RFID registration and physical installation at the Woodlands center is straightforward and typically takes less than 30 minutes."
+    }
+]
