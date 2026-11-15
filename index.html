@@ -7,96 +7,110 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen font-sans selection:bg-emerald-500 selection:text-white">
-    <!-- Header -->
-    <header class="bg-slate-900 border-b border-slate-800 sticky top-0 z-50 backdrop-blur-md bg-opacity-90">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
-            <div class="flex items-center space-x-3">
-                <div class="w-10 h-10 rounded-xl bg-emerald-600 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-emerald-900/30">
-                    <i class="fa-solid fa-car-side"></i>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans selection:bg-emerald-500 selection:text-white flex flex-col justify-between">
+    <div>
+        <!-- Header -->
+        <header class="bg-slate-900 border-b border-slate-800 sticky top-0 z-50 backdrop-blur-md bg-opacity-90">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-600 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-emerald-900/30">
+                        <i class="fa-solid fa-car-side"></i>
+                    </div>
+                    <div>
+                        <h1 class="font-bold text-lg tracking-tight text-white">Jaecoo J6 Owners SG</h1>
+                        <p class="text-xs text-slate-400">Community Knowledge Base & FAQ</p>
+                    </div>
                 </div>
-                <div>
-                    <h1 class="font-bold text-lg tracking-tight text-white">Jaecoo J6 Owners SG</h1>
-                    <p class="text-xs text-slate-400">Community Knowledge Base & FAQ</p>
+                <div class="flex items-center space-x-2">
+                    <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5 animate-pulse"></span>
+                        Active Community DB
+                    </span>
                 </div>
             </div>
-            <div class="flex items-center space-x-2">
-                <span class="inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
-                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5 animate-pulse"></span>
-                    Active Community DB
-                </span>
-            </div>
-        </div>
-    </header>
+        </header>
 
-    <!-- Main Content -->
-    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <!-- Hero Search Section -->
-        <div class="mb-8 text-center max-w-2xl mx-auto">
-            <h2 class="text-3xl font-extrabold text-white tracking-tight sm:text-4xl mb-3">
-                Everything you need to know about the J6
-            </h2>
-            <p class="text-slate-400 text-sm sm:text-base mb-6">
-                Curated from community chat logs, troubleshooting guides, group buys, and owner experiences in Singapore.
-            </p>
-            <div class="relative">
-                <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-slate-400">
-                    <i class="fa-solid fa-magnifying-glass"></i>
+        <!-- Main Content -->
+        <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <!-- Hero Search Section -->
+            <div class="mb-8 text-center max-w-2xl mx-auto">
+                <h2 class="text-3xl font-extrabold text-white tracking-tight sm:text-4xl mb-3">
+                    Everything you need to know about the J6
+                </h2>
+                <p class="text-slate-400 text-sm sm:text-base mb-6">
+                    Curated from community chat logs, troubleshooting guides, group buys, and owner experiences in Singapore.
+                </p>
+                <div class="relative">
+                    <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-slate-400">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <input type="text" id="searchInput" placeholder="Search keywords (e.g., Android Auto, frunk, V-Kool, LFP battery)..." 
+                        class="w-full pl-11 pr-4 py-3.5 bg-slate-900 border border-slate-800 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent shadow-xl transition-all">
                 </div>
-                <input type="text" id="searchInput" placeholder="Search keywords (e.g., Android Auto, frunk, V-Kool, LFP battery)..." 
-                    class="w-full pl-11 pr-4 py-3.5 bg-slate-900 border border-slate-800 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent shadow-xl transition-all">
             </div>
-        </div>
 
-        <!-- Category Filter Pills -->
-        <div class="flex flex-wrap justify-center gap-2 mb-8" id="categoryFilters">
-            <button data-category="all" class="category-btn px-4 py-2 rounded-lg text-xs font-medium bg-emerald-600 text-white shadow-md transition-all">
-                All Topics
-            </button>
-            <button data-category="infotainment" class="category-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-900 text-slate-300 border border-slate-800 hover:bg-slate-800 transition-all">
-                Infotainment & Tech
-            </button>
-            <button data-category="charging" class="category-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-900 text-slate-300 border border-slate-800 hover:bg-slate-800 transition-all">
-                Charging & Battery
-            </button>
-            <button data-category="range" class="category-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-900 text-slate-300 border border-slate-800 hover:bg-slate-800 transition-all">
-                Range & Networks
-            </button>
-            <button data-category="mods" class="category-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-900 text-slate-300 border border-slate-800 hover:bg-slate-800 transition-all">
-                Mods & Group Buys
-            </button>
-            <button data-category="maintenance" class="category-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-900 text-slate-300 border border-slate-800 hover:bg-slate-800 transition-all">
-                Hardware & Maintenance
-            </button>
-            <button data-category="tinting" class="category-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-900 text-slate-300 border border-slate-800 hover:bg-slate-800 transition-all">
-                Window Tint & OBU
-            </button>
-            <button data-category="vep" class="category-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-900 text-slate-300 border border-slate-800 hover:bg-slate-800 transition-all">
-                Cross-Border VEP
-            </button>
-        </div>
+            <!-- Category Filter Pills -->
+            <div class="flex flex-wrap justify-center gap-2 mb-8" id="categoryFilters">
+                <button data-category="all" class="category-btn px-4 py-2 rounded-lg text-xs font-medium bg-emerald-600 text-white shadow-md transition-all">
+                    All Topics
+                </button>
+                <button data-category="infotainment" class="category-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-900 text-slate-300 border border-slate-800 hover:bg-slate-800 transition-all">
+                    Infotainment & Tech
+                </button>
+                <button data-category="charging" class="category-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-900 text-slate-300 border border-slate-800 hover:bg-slate-800 transition-all">
+                    Charging & Battery
+                </button>
+                <button data-category="range" class="category-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-900 text-slate-300 border border-slate-800 hover:bg-slate-800 transition-all">
+                    Range & Networks
+                </button>
+                <button data-category="mods" class="category-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-900 text-slate-300 border border-slate-800 hover:bg-slate-800 transition-all">
+                    Mods & Group Buys
+                </button>
+                <button data-category="maintenance" class="category-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-900 text-slate-300 border border-slate-800 hover:bg-slate-800 transition-all">
+                    Hardware & Maintenance
+                </button>
+                <button data-category="tinting" class="category-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-900 text-slate-300 border border-slate-800 hover:bg-slate-800 transition-all">
+                    Window Tint & OBU
+                </button>
+                <button data-category="vep" class="category-btn px-4 py-2 rounded-lg text-xs font-medium bg-slate-900 text-slate-300 border border-slate-800 hover:bg-slate-800 transition-all">
+                    Cross-Border VEP
+                </button>
+            </div>
 
-        <!-- FAQ Container -->
-        <div class="space-y-6 max-w-4xl mx-auto" id="faqContainer">
-            <!-- Dynamically loaded from faqs.json -->
-        </div>
+            <!-- FAQ Container -->
+            <div class="space-y-6 max-w-4xl mx-auto" id="faqContainer">
+                <!-- Dynamically loaded from faqs.json -->
+            </div>
 
-        <!-- Loading State -->
-        <div id="loadingState" class="text-center py-12">
-            <i class="fa-solid fa-spinner fa-spin text-3xl text-emerald-500 mb-3"></i>
-            <p class="text-slate-400 text-sm">Loading knowledge base...</p>
-        </div>
+            <!-- Loading State -->
+            <div id="loadingState" class="text-center py-12">
+                <i class="fa-solid fa-spinner fa-spin text-3xl text-emerald-500 mb-3"></i>
+                <p class="text-slate-400 text-sm">Loading knowledge base...</p>
+            </div>
 
-        <!-- Empty State -->
-        <div id="noResults" class="hidden text-center py-12">
-            <i class="fa-solid fa-circle-exclamation text-4xl text-slate-600 mb-3"></i>
-            <p class="text-slate-400 text-base">No matching questions found. Try different keywords!</p>
-        </div>
-    </main>
+            <!-- Empty State -->
+            <div id="noResults" class="hidden text-center py-12">
+                <i class="fa-solid fa-circle-exclamation text-4xl text-slate-600 mb-3"></i>
+                <p class="text-slate-400 text-base">No matching questions found. Try different keywords!</p>
+            </div>
+        </main>
+    </div>
 
-    <!-- Footer -->
-    <footer class="mt-20 border-t border-slate-800 py-8 text-center text-xs text-slate-500">
-        <p>Jaecoo J6 Owners SG Community Knowledge Base &bull; Built for J6 Owners</p>
+    <!-- Footer & Support Section -->
+    <footer class="mt-20 border-t border-slate-800 bg-slate-900 py-10 text-center text-xs text-slate-400">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-4">
+            <div class="inline-flex flex-col sm:flex-row items-center justify-center gap-3 bg-slate-950 border border-slate-800 rounded-2xl p-4 shadow-xl">
+                <div class="flex items-center space-x-2 text-slate-300 font-medium">
+                    <i class="fa-solid fa-mug-hot text-emerald-400"></i>
+                    <span>Found this knowledge base helpful?</span>
+                </div>
+                <a href="#support" onclick="alert('Thank you for supporting the community! You can configure your PayNow or support link here.'); return false;" class="px-4 py-2 bg-emerald-600 hover:bg-emerald-500 text-white font-semibold rounded-xl shadow-md transition-all flex items-center space-x-2">
+                    <i class="fa-solid fa-heart text-red-300"></i>
+                    <span>Buy me a Milo</span>
+                </a>
+            </div>
+            <p class="text-slate-500">Jaecoo J6 Owners SG Community Knowledge Base &bull; Built for J6 Owners</p>
+        </div>
     </footer>
 
     <!-- JavaScript for Dynamic Loading & Interactivity -->
