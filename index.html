@@ -78,203 +78,13 @@
 
         <!-- FAQ Container -->
         <div class="space-y-6 max-w-4xl mx-auto" id="faqContainer">
-            <!-- Infotainment -->
-            <div class="faq-card bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl transition-all" data-category="infotainment">
-                <div class="flex items-start justify-between gap-4 cursor-pointer faq-header">
-                    <div class="flex items-center space-x-3">
-                        <span class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-sm shrink-0 border border-emerald-500/20"><i class="fa-solid fa-mobile-screen"></i></span>
-                        <h3 class="font-semibold text-white text-base sm:text-lg">What should I do if Android Auto or Apple CarPlay fails to connect?</h3>
-                    </div>
-                    <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200 mt-1"></i>
-                </div>
-                <div class="faq-body mt-4 text-slate-300 text-sm leading-relaxed pl-11 space-y-3">
-                    <p>Owners recommend two primary troubleshooting steps:</p>
-                    <ol class="list-decimal pl-5 space-y-2">
-                        <li><strong>System Reboot:</strong> Hold down the two scroll/button wheels on the steering wheel for 10 seconds then release to force a system reboot.</li>
-                        <li><strong>Deep Reset:</strong> If a reboot doesn't work, lock the car and let it go to sleep for 20–30 minutes (e.g., go for coffee or a haircut), after which the connection typically restores.</li>
-                    </ol>
-                    <p class="text-xs text-slate-400 italic">Tip: Alternative wireless dongles like "WizCar" or "Carlinkit" are also popular among members to bypass native infotainment limitations.</p>
-                </div>
-            </div>
+            <!-- Dynamically loaded from faqs.json -->
+        </div>
 
-            <div class="faq-card bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl transition-all" data-category="infotainment">
-                <div class="flex items-start justify-between gap-4 cursor-pointer faq-header">
-                    <div class="flex items-center space-x-3">
-                        <span class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-sm shrink-0 border border-emerald-500/20"><i class="fa-solid fa-download"></i></span>
-                        <h3 class="font-semibold text-white text-base sm:text-lg">How can I sideload extra apps (like YouTube, Spotify, Waze, or TikTok) onto the native interface?</h3>
-                    </div>
-                    <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200 mt-1"></i>
-                </div>
-                <div class="faq-body mt-4 text-slate-300 text-sm leading-relaxed pl-11">
-                    <p>Members have shared preparation guides and instructions to sideload apps using an Android phone and a thumbdrive (often coordinated via community members like Hons).</p>
-                </div>
-            </div>
-
-            <!-- Charging & Battery -->
-            <div class="faq-card bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl transition-all" data-category="charging">
-                <div class="flex items-start justify-between gap-4 cursor-pointer faq-header">
-                    <div class="flex items-center space-x-3">
-                        <span class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-sm shrink-0 border border-emerald-500/20"><i class="fa-solid fa-bolt"></i></span>
-                        <h3 class="font-semibold text-white text-base sm:text-lg">How do I stop an active DC charging session if the app or station fails to terminate it?</h3>
-                    </div>
-                    <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200 mt-1"></i>
-                </div>
-                <div class="faq-body mt-4 text-slate-300 text-sm leading-relaxed pl-11">
-                    <p>You can manually force-stop or pause the active session directly from the central touchscreen by going into the <strong>Charging</strong> or <strong>Energy</strong> control menu and tapping <strong>Stop Charging</strong>.</p>
-                </div>
-            </div>
-
-            <div class="faq-card bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl transition-all" data-category="charging">
-                <div class="flex items-start justify-between gap-4 cursor-pointer faq-header">
-                    <div class="flex items-center space-x-3">
-                        <span class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-sm shrink-0 border border-emerald-500/20"><i class="fa-solid fa-car-battery"></i></span>
-                        <h3 class="font-semibold text-white text-base sm:text-lg">Should I charge the Jaecoo J6 battery to 100%?</h3>
-                    </div>
-                    <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200 mt-1"></i>
-                </div>
-                <div class="faq-body mt-4 text-slate-300 text-sm leading-relaxed pl-11">
-                    <p>Yes. The J6 uses a Lithium Iron Phosphate (LFP) battery, which safely supports and actually benefits from being charged to 100% regularly to ensure proper cell balancing by the Battery Management System (BMS).</p>
-                </div>
-            </div>
-
-            <div class="faq-card bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl transition-all" data-category="charging">
-                <div class="flex items-start justify-between gap-4 cursor-pointer faq-header">
-                    <div class="flex items-center space-x-3">
-                        <span class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-sm shrink-0 border border-emerald-500/20"><i class="fa-solid fa-camera"></i></span>
-                        <h3 class="font-semibold text-white text-base sm:text-lg">What causes heavy 12V battery drain when installing dashcams?</h3>
-                    </div>
-                    <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200 mt-1"></i>
-                </div>
-                <div class="faq-body mt-4 text-slate-300 text-sm leading-relaxed pl-11">
-                    <p>Parking surveillance modes (such as on the 70mai X800) draw continuous power, prompting owners to recommend installing dedicated external battery packs to reduce strain on the vehicle's 12V battery.</p>
-                </div>
-            </div>
-
-            <!-- Range & Networks -->
-            <div class="faq-card bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl transition-all" data-category="range">
-                <div class="flex items-start justify-between gap-4 cursor-pointer faq-header">
-                    <div class="flex items-center space-x-3">
-                        <span class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-sm shrink-0 border border-emerald-500/20"><i class="fa-solid fa-road"></i></span>
-                        <h3 class="font-semibold text-white text-base sm:text-lg">What real-world driving range can owners expect from the Cat A model?</h3>
-                    </div>
-                    <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200 mt-1"></i>
-                </div>
-                <div class="faq-body mt-4 text-slate-300 text-sm leading-relaxed pl-11 space-y-2">
-                    <p>While the official claim is 426 km, owners realistically report achieving <strong>300–350 km per charge</strong> depending on driving habits and accessories.</p>
-                    <p class="text-xs text-slate-400">Some also recommend adjusting tire pressure to 250–280 kPa for a more agile steering feel.</p>
-                </div>
-            </div>
-
-            <div class="faq-card bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl transition-all" data-category="range">
-                <div class="flex items-start justify-between gap-4 cursor-pointer faq-header">
-                    <div class="flex items-center space-x-3">
-                        <span class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-sm shrink-0 border border-emerald-500/20"><i class="fa-solid fa-gas-pump"></i></span>
-                        <h3 class="font-semibold text-white text-base sm:text-lg">What should I know about public charging networks like SP and TotalEnergies/BlueSG?</h3>
-                    </div>
-                    <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200 mt-1"></i>
-                </div>
-                <div class="faq-body mt-4 text-slate-300 text-sm leading-relaxed pl-11 space-y-2">
-                    <ul class="list-disc pl-5 space-y-2">
-                        <li><strong>SP Chargers:</strong> Commonly used, but carry a strict <strong>$0.50/minute idling fee</strong> after a 30-minute grace period.</li>
-                        <li><strong>TotalEnergies / BlueSG:</strong> Convenient for overnight charging because they lack idling fees overnight (provided the vehicle is moved by 9 AM), though they charge at a slower ~3kW rate.</li>
-                    </ul>
-                </div>
-            </div>
-
-            <!-- Mods & Group Buys -->
-            <div class="faq-card bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl transition-all" data-category="mods">
-                <div class="flex items-start justify-between gap-4 cursor-pointer faq-header">
-                    <div class="flex items-center space-x-3">
-                        <span class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-sm shrink-0 border border-emerald-500/20"><i class="fa-solid fa-boxes-packing"></i></span>
-                        <h3 class="font-semibold text-white text-base sm:text-lg">How do I participate in community group buys (e.g., RHD frunks, hydraulic struts)?</h3>
-                    </div>
-                    <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200 mt-1"></i>
-                </div>
-                <div class="faq-body mt-4 text-slate-300 text-sm leading-relaxed pl-11">
-                    <p>Group buys are frequently organized by community volunteers in the chat. Members typically transfer a 50% deposit, submit a screenshot confirmation, and coordinate installations with partner workshops or installers (such as Nancy Tay Enterprise at Lengkok Bahru).</p>
-                </div>
-            </div>
-
-            <div class="faq-card bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl transition-all" data-category="mods">
-                <div class="flex items-start justify-between gap-4 cursor-pointer faq-header">
-                    <div class="flex items-center space-x-3">
-                        <span class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-sm shrink-0 border border-emerald-500/20"><i class="fa-solid fa-shield-halved"></i></span>
-                        <h3 class="font-semibold text-white text-base sm:text-lg">Can side steps and roof racks pass local vehicle inspections (LTA compliance)?</h3>
-                    </div>
-                    <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200 mt-1"></i>
-                </div>
-                <div class="faq-body mt-4 text-slate-300 text-sm leading-relaxed pl-11">
-                    <p>Yes, aftermarket side steps generally pass inspection as long as they do not exceed the legal overall width of the car. However, owners note that roof racks significantly increase car-wash time and require wind deflectors to mitigate highway wind noise.</p>
-                </div>
-            </div>
-
-            <!-- Hardware & Maintenance -->
-            <div class="faq-card bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl transition-all" data-category="maintenance">
-                <div class="flex items-start justify-between gap-4 cursor-pointer faq-header">
-                    <div class="flex items-center space-x-3">
-                        <span class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-sm shrink-0 border border-emerald-500/20"><i class="fa-solid fa-wrench"></i></span>
-                        <h3 class="font-semibold text-white text-base sm:text-lg">How do owners fix annoying door rattles or loose internal panels?</h3>
-                    </div>
-                    <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200 mt-1"></i>
-                </div>
-                <div class="faq-body mt-4 text-slate-300 text-sm leading-relaxed pl-11">
-                    <p>A popular fix is engaging soundproofing and dampening services for the door panels (single or multi-layer treatment), which reinforces loose clips and panels to eliminate rattles.</p>
-                </div>
-            </div>
-
-            <div class="faq-card bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl transition-all" data-category="maintenance">
-                <div class="flex items-start justify-between gap-4 cursor-pointer faq-header">
-                    <div class="flex items-center space-x-3">
-                        <span class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-sm shrink-0 border border-emerald-500/20"><i class="fa-solid fa-triangle-exclamation"></i></span>
-                        <h3 class="font-semibold text-white text-base sm:text-lg">What does the red triangle warning light with a spanner symbol mean?</h3>
-                    </div>
-                    <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200 mt-1"></i>
-                </div>
-                <div class="faq-body mt-4 text-slate-300 text-sm leading-relaxed pl-11">
-                    <p>It indicates that the vehicle has reached the <strong>10,000 km service mark</strong>, which requires a quick reset and check at the service centre. (Standard scheduled servicing is required every 20,000 km or 12 months, following an optional 5,000 km check).</p>
-                </div>
-            </div>
-
-            <!-- Window Tint & OBU -->
-            <div class="faq-card bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl transition-all" data-category="tinting">
-                <div class="flex items-start justify-between gap-4 cursor-pointer faq-header">
-                    <div class="flex items-center space-x-3">
-                        <span class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-sm shrink-0 border border-emerald-500/20"><i class="fa-solid fa-sun"></i></span>
-                        <h3 class="font-semibold text-white text-base sm:text-lg">What are owners' opinions on the standard bundled V-Kool window tint?</h3>
-                    </div>
-                    <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200 mt-1"></i>
-                </div>
-                <div class="faq-body mt-4 text-slate-300 text-sm leading-relaxed pl-11">
-                    <p>While the complimentary V-Kool film provides decent UV protection, many owners note that its infrared (IR) rejection is weak, causing the dashboard to heat up quickly under scorching weather. Some members recommend asking the dealer for a window film rebate instead so you can opt to install a darker, higher-performance third-party tint (such as Infratint).</p>
-                </div>
-            </div>
-
-            <div class="faq-card bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl transition-all" data-category="tinting">
-                <div class="flex items-start justify-between gap-4 cursor-pointer faq-header">
-                    <div class="flex items-center space-x-3">
-                        <span class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-sm shrink-0 border border-emerald-500/20"><i class="fa-solid fa-credit-card"></i></span>
-                        <h3 class="font-semibold text-white text-base sm:text-lg">How should I manage physical cashcards when using the OBU?</h3>
-                    </div>
-                    <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200 mt-1"></i>
-                </div>
-                <div class="faq-body mt-4 text-slate-300 text-sm leading-relaxed pl-11">
-                    <p>If you have an active virtual cashcard (vCashCard) linked, owners strongly advise removing any physical cashcard from the slot to prevent accidental double-charging.</p>
-                </div>
-            </div>
-
-            <!-- Cross-Border VEP -->
-            <div class="faq-card bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl transition-all" data-category="vep">
-                <div class="flex items-start justify-between gap-4 cursor-pointer faq-header">
-                    <div class="flex items-center space-x-3">
-                        <span class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-sm shrink-0 border border-emerald-500/20"><i class="fa-solid fa-passport"></i></span>
-                        <h3 class="font-semibold text-white text-base sm:text-lg">How long does the Malaysia VEP RFID registration and installation take?</h3>
-                    </div>
-                    <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200 mt-1"></i>
-                </div>
-                <div class="faq-body mt-4 text-slate-300 text-sm leading-relaxed pl-11">
-                    <p>Community members who completed the process shared that VEP RFID registration and physical installation at the Woodlands center is straightforward and typically takes less than 30 minutes.</p>
-                </div>
-            </div>
+        <!-- Loading State -->
+        <div id="loadingState" class="text-center py-12">
+            <i class="fa-solid fa-spinner fa-spin text-3xl text-emerald-500 mb-3"></i>
+            <p class="text-slate-400 text-sm">Loading knowledge base...</p>
         </div>
 
         <!-- Empty State -->
@@ -289,44 +99,93 @@
         <p>Jaecoo J6 Owners SG Community Knowledge Base &bull; Built for J6 Owners</p>
     </footer>
 
-    <!-- JavaScript for Interactivity -->
+    <!-- JavaScript for Dynamic Loading & Interactivity -->
     <script>
-        // Accordion Toggle
-        document.querySelectorAll('.faq-header').forEach(header => {
-            header.addEventListener('click', () => {
-                const card = header.closest('.faq-card');
-                const body = card.querySelector('.faq-body');
-                const icon = header.querySelector('.fa-chevron-down');
-                
-                const isOpen = body.style.maxHeight;
-                if (isOpen) {
-                    body.style.maxHeight = null;
-                    icon.style.transform = 'rotate(0deg)';
-                } else {
-                    body.style.maxHeight = body.scrollHeight + 'px';
-                    icon.style.transform = 'rotate(180deg)';
-                }
-            });
-        });
-
-        document.querySelectorAll('.faq-body').forEach(body => {
-            body.style.maxHeight = null;
-            body.style.overflow = 'hidden';
-            body.style.transition = 'max-height 0.2s ease-out';
-        });
-
-        // Search & Filter Logic
+        let allFAQs = [];
+        const faqContainer = document.getElementById('faqContainer');
+        const loadingState = document.getElementById('loadingState');
         const searchInput = document.getElementById('searchInput');
         const categoryButtons = document.querySelectorAll('.category-btn');
-        const faqCards = document.querySelectorAll('.faq-card');
         const noResults = document.getElementById('noResults');
         let currentCategory = 'all';
 
+        // Fetch FAQs from faqs.json
+        async function loadFAQs() {
+            try {
+                const response = await fetch('faqs.json');
+                if (!response.ok) throw new Error('Failed to load FAQs');
+                allFAQs = await response.json();
+                loadingState.remove();
+                renderFAQs(allFAQs);
+            } catch (error) {
+                loadingState.innerHTML = '<p class="text-red-400">Error loading FAQs. Please ensure faqs.json is in the same folder.</p>';
+            }
+        }
+
+        function renderFAQs(faqs) {
+            faqContainer.innerHTML = '';
+            
+            faqs.forEach(faq => {
+                const card = document.createElement('div');
+                card.className = 'faq-card bg-slate-900 border border-slate-800 rounded-2xl p-6 shadow-xl transition-all';
+                card.setAttribute('data-category', faq.category);
+
+                card.innerHTML = `
+                    <div class="flex items-start justify-between gap-4 cursor-pointer faq-header">
+                        <div class="flex items-center space-x-3">
+                            <span class="w-8 h-8 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center font-bold text-sm shrink-0 border border-emerald-500/20"><i class="fa-solid ${faq.icon}"></i></span>
+                            <h3 class="font-semibold text-white text-base sm:text-lg">${faq.question}</h3>
+                        </div>
+                        <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-200 mt-1"></i>
+                    </div>
+                    <div class="faq-body mt-4 text-slate-300 text-sm leading-relaxed pl-11">
+                        <p>${faq.answer}</p>
+                    </div>
+                `;
+
+                faqContainer.appendChild(card);
+            });
+
+            initInteractivity();
+            filterFAQs();
+        }
+
+        function initInteractivity() {
+            // Accordion Toggle
+            document.querySelectorAll('.faq-header').forEach(header => {
+                header.removeEventListener('click', header._listener);
+                header._listener = () => {
+                    const card = header.closest('.faq-card');
+                    const body = card.querySelector('.faq-body');
+                    const icon = header.querySelector('.fa-chevron-down');
+                    
+                    const isOpen = body.style.maxHeight;
+                    if (isOpen) {
+                        body.style.maxHeight = null;
+                        icon.style.transform = 'rotate(0deg)';
+                    } else {
+                        body.style.maxHeight = body.scrollHeight + 'px';
+                        icon.style.transform = 'rotate(180deg)';
+                    }
+                };
+                header.addEventListener('click', header._listener);
+            });
+
+            document.querySelectorAll('.faq-body').forEach(body => {
+                if (!body.style.maxHeight) {
+                    body.style.maxHeight = null;
+                    body.style.overflow = 'hidden';
+                    body.style.transition = 'max-height 0.2s ease-out';
+                }
+            });
+        }
+
         function filterFAQs() {
             const query = searchInput.value.toLowerCase().trim();
+            const cards = document.querySelectorAll('.faq-card');
             let visibleCount = 0;
 
-            faqCards.forEach(card => {
+            cards.forEach(card => {
                 const category = card.getAttribute('data-category');
                 const text = card.textContent.toLowerCase();
                 
@@ -363,6 +222,9 @@
                 filterFAQs();
             });
         });
+
+        // Initial Load
+        loadFAQs();
     </script>
 </body>
 </html>
