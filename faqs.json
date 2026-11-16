@@ -12,6 +12,18 @@
         "answer": "Members have shared preparation guides and instructions to sideload apps using an Android phone and a thumbdrive (often coordinated via community members like Hons)."
     },
     {
+        "category": "infotainment",
+        "icon": "fa-display",
+        "question": "What should I do if the main infotainment screen suddenly turns completely black or freezes?",
+        "answer": "If your screen goes blank or locks up, you can perform a hard reboot of the head unit by <strong>pressing and holding both scroll buttons (or wheels) on the steering wheel for about 10 seconds</strong> until the screen goes blank and restarts."
+    },
+    {
+        "category": "infotainment",
+        "icon": "fa-triangle-exclamation",
+        "question": "Why did my infotainment system suddenly reset while driving?",
+        "answer": "Occasionally, the system software may encounter a minor background glitch or memory hang, prompting an automated reboot. If it happens infrequently, it is generally harmless. However, if it recurs frequently, owners recommend checking for software updates or reporting it during your next service center visit."
+    },
+    {
         "category": "charging",
         "icon": "fa-bolt",
         "question": "How do I stop an active DC charging session if the app or station fails to terminate it?",
