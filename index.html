@@ -177,7 +177,6 @@
         }
 
         function initInteractivity() {
-            // Accordion Toggle (Collapsed by default)
             document.querySelectorAll('.faq-header').forEach(header => {
                 header.removeEventListener('click', header._listener);
                 header._listener = () => {
@@ -287,6 +286,7 @@
         if (openSupportBtn && supportModal) {
             openSupportBtn.addEventListener('click', (e) => {
                 e.preventDefault();
+                supportModal.classList.add('flex');
                 supportModal.classList.remove('hidden');
             });
         }
@@ -294,6 +294,7 @@
         if (closeSupportBtn && supportModal) {
             closeSupportBtn.addEventListener('click', () => {
                 supportModal.classList.add('hidden');
+                supportModal.classList.remove('flex');
             });
         }
 
@@ -301,6 +302,7 @@
             supportModal.addEventListener('click', (e) => {
                 if (e.target === supportModal) {
                     supportModal.classList.add('hidden');
+                    supportModal.classList.remove('flex');
                 }
             });
         }
