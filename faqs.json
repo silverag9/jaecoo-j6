@@ -94,5 +94,11 @@
         "icon": "fa-passport",
         "question": "How long does the Malaysia VEP RFID registration and installation take?",
         "answer": "Community members who completed the process shared that VEP RFID registration and physical installation at the Woodlands center is straightforward and typically takes less than 30 minutes."
+    },
+    {
+    "category": "vep",
+    "icon": "fa-passport",
+    "question": "How do I register for the Malaysia Vehicle Entry Permit (VEP)?",
+    "answer": "<strong>Step-by-Step VEP Registration Guide:</strong><br><br>1. <strong>Prepare Your Documents:</strong> Have your LTA Vehicle Log Card (downloadable via OneMotoring using Singpass), motor insurance certificate with Malaysia coverage, and a copy of your NRIC/Passport ready.<br><br>2. <strong>Sign Up on the Portal:</strong> Create an account on the official <a href='https://vep.jpj.gov.my' target='_blank' class='text-emerald-400 underline'>Malaysia VEP Portal</a> and verify your email.<br><br>3. <strong>Submit Vehicle Details:</strong> Log in, fill in your particulars and vehicle specs exactly as they appear on your log card, and upload your digital documents.<br><br>4. <strong>Track Approval & Pay:</strong> Check your status on the <a href='https://vepams.jpj.gov.my' target='_blank' class='text-emerald-400 underline'>VEPAMS Portal</a> and complete the processing fee payment online.<br><br>5. <strong>Collect & Install:</strong> Choose home delivery or collect your RFID tag at a designated centre in Johor Bahru, then install it on your windscreen."
     }
 ]
