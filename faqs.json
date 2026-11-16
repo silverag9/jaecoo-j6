@@ -7,12 +7,6 @@
     },
     {
         "category": "infotainment",
-        "icon": "fa-download",
-        "question": "How can I sideload extra apps (like YouTube, Spotify, Waze, or TikTok) onto the native interface?",
-        "answer": "Members have shared preparation guides and instructions to sideload apps using an Android phone and a thumbdrive (often coordinated via community members like Hons)."
-    },
-    {
-        "category": "infotainment",
         "icon": "fa-display",
         "question": "What should I do if the main infotainment screen suddenly turns completely black or freezes?",
         "answer": "If your screen goes blank or locks up, you can perform a hard reboot of the head unit by <strong>pressing and holding both scroll buttons (or wheels) on the steering wheel for about 10 seconds</strong> until the screen goes blank and restarts."
@@ -22,6 +16,12 @@
         "icon": "fa-triangle-exclamation",
         "question": "Why did my infotainment system suddenly reset while driving?",
         "answer": "Occasionally, the system software may encounter a minor background glitch or memory hang, prompting an automated reboot. If it happens infrequently, it is generally harmless. However, if it recurs frequently, owners recommend checking for software updates or reporting it during your next service center visit."
+    },
+    {
+        "category": "infotainment",
+        "icon": "fa-download",
+        "question": "How can I sideload extra apps (like YouTube, Spotify, Waze, or TikTok) onto the native interface?",
+        "answer": "Members have shared preparation guides and instructions to sideload apps using an Android phone and a thumbdrive (often coordinated via community members like Hons)."
     },
     {
         "category": "charging",
@@ -96,9 +96,9 @@
         "answer": "Community members who completed the process shared that VEP RFID registration and physical installation at the Woodlands center is straightforward and typically takes less than 30 minutes."
     },
     {
-    "category": "vep",
-    "icon": "fa-passport",
-    "question": "How do I register for the Malaysia Vehicle Entry Permit (VEP)?",
-    "answer": "<strong>Step-by-Step VEP Registration Guide:</strong><br><br>1. <strong>Prepare Your Documents:</strong> Have your LTA Vehicle Log Card (downloadable via OneMotoring using Singpass), motor insurance certificate with Malaysia coverage, and a copy of your NRIC/Passport ready.<br><br>2. <strong>Sign Up on the Portal:</strong> Create an account on the official <a href='https://vep.jpj.gov.my' target='_blank' class='text-emerald-400 underline'>Malaysia VEP Portal</a> and verify your email.<br><br>3. <strong>Submit Vehicle Details:</strong> Log in, fill in your particulars and vehicle specs exactly as they appear on your log card, and upload your digital documents.<br><br>4. <strong>Track Approval & Pay:</strong> Check your status on the <a href='https://vepams.jpj.gov.my' target='_blank' class='text-emerald-400 underline'>VEPAMS Portal</a> and complete the processing fee payment online.<br><br>5. <strong>Collect & Install:</strong> Choose home delivery or collect your RFID tag at a designated centre in Johor Bahru, then install it on your windscreen."
-    },
+        "category": "vep",
+        "icon": "fa-file-lines",
+        "question": "How do I register for the Malaysia Vehicle Entry Permit (VEP)?",
+        "answer": "<strong>Step-by-Step VEP Registration Guide:</strong><br><br>1. <strong>Prepare Your Documents:</strong> Have your LTA Vehicle Log Card (downloadable via OneMotoring using Singpass), motor insurance certificate with Malaysia cross-border coverage, and a copy of your NRIC/Passport ready.<br><br>2. <strong>Sign Up on the Portal:</strong> Create an account on the official <a href='https://vep.jpj.gov.my' target='_blank' class='text-emerald-400 underline'>Malaysia VEP Portal</a> and verify your email.<br><br>3. <strong>Submit Vehicle Details:</strong> Log in, fill in your particulars and vehicle specs exactly as they appear on your log card, and upload your digital documents.<br><br>4. <strong>Track Approval & Pay:</strong> Check your status on the <a href='https://vepams.jpj.gov.my' target='_blank' class='text-emerald-400 underline'>VEPAMS Portal</a> and complete the processing fee payment online.<br><br>5. <strong>Collect & Install:</strong> Choose home delivery or collect your RFID tag at a designated centre in Johor Bahru, then install it on your windscreen."
+    }
 ]
