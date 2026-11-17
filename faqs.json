@@ -1,5 +1,11 @@
 [
     {
+    "category": "contacts",
+    "icon": "fa-headset",
+    "question": "Jaecoo Aftersales Contacts & Operating Hours",
+    "answer": "<strong>Important Service Numbers:</strong><br><ul><li>📱 <strong>64692262</strong> - Omoda Jaecoo aftersales WhatsApp number</li><li>☎️ <strong>67429368</strong> - Omoda Jaecoo aftersales hotline</li><li>🚨 <strong>98531969</strong> - 24 hours breakdown service number</li></ul><br><strong>Enquiries & Support:</strong><br>For any aftersales or service related enquiries, customers can WhatsApp the first number or call the hotline. It will be active during work hours:<br><br>🕒 <strong>Operating Hours:</strong><br><ul><li><strong>Weekdays:</strong> 8:30 AM – 5:30 PM</li><li><strong>Saturday:</strong> 8:30 AM – 12:30 PM</li><li><em>Closed on Sundays and Public Holidays</em></li></ul>"
+    },
+    {
         "category": "infotainment",
         "icon": "fa-mobile-screen",
         "question": "What should I do if Android Auto or Apple CarPlay fails to connect?",
