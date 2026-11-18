@@ -1,110 +1,58 @@
-[
-    {
-    "category": "contacts",
-    "icon": "fa-headset",
-    "question": "Jaecoo Aftersales Contacts & Operating Hours",
-    "answer": "<strong>Important Service Numbers:</strong><br><ul><li>📱 <strong>64692262</strong> - Omoda Jaecoo aftersales WhatsApp number</li><li>☎️ <strong>67429368</strong> - Omoda Jaecoo aftersales hotline</li><li>🚨 <strong>98531969</strong> - 24 hours breakdown service number</li></ul><br><strong>Enquiries & Support:</strong><br>For any aftersales or service related enquiries, customers can WhatsApp the first number or call the hotline. It will be active during work hours:<br><br>🕒 <strong>Operating Hours:</strong><br><ul><li><strong>Weekdays:</strong> 8:30 AM – 5:30 PM</li><li><strong>Saturday:</strong> 8:30 AM – 12:30 PM</li><li><em>Closed on Sundays and Public Holidays</em></li></ul>"
-    },
-    {
-        "category": "infotainment",
-        "icon": "fa-mobile-screen",
-        "question": "What should I do if Android Auto or Apple CarPlay fails to connect?",
-        "answer": "Owners recommend two primary troubleshooting steps:<br><br>1. <strong>System Reboot:</strong> Hold down the two scroll/button wheels on the steering wheel for 10 seconds then release to force a system reboot.<br>2. <strong>Deep Reset:</strong> If a reboot doesn't work, lock the car and let it go to sleep for 20–30 minutes, after which the connection typically restores.<br><br><em>Tip: Alternative wireless dongles like 'WizCar' or 'Carlinkit' are also popular among members to bypass native infotainment limitations.</em>"
-    },
-    {
-        "category": "infotainment",
-        "icon": "fa-display",
-        "question": "What should I do if the main infotainment screen suddenly turns completely black or freezes?",
-        "answer": "If your screen goes blank or locks up, you can perform a hard reboot of the head unit by <strong>pressing and holding both scroll buttons (or wheels) on the steering wheel for about 10 seconds</strong> until the screen goes blank and restarts."
-    },
-    {
-        "category": "infotainment",
-        "icon": "fa-triangle-exclamation",
-        "question": "Why did my infotainment system suddenly reset while driving?",
-        "answer": "Occasionally, the system software may encounter a minor background glitch or memory hang, prompting an automated reboot. If it happens infrequently, it is generally harmless. However, if it recurs frequently, owners recommend checking for software updates or reporting it during your next service center visit."
-    },
-    {
-        "category": "infotainment",
-        "icon": "fa-download",
-        "question": "How can I sideload extra apps (like YouTube, Spotify, Waze, or TikTok) onto the native interface?",
-        "answer": "Members have shared preparation guides and instructions to sideload apps using an Android phone and a thumbdrive (often coordinated via community members like Hons)."
-    },
-    {
-        "category": "charging",
-        "icon": "fa-bolt",
-        "question": "How do I stop an active DC charging session if the app or station fails to terminate it?",
-        "answer": "You can manually force-stop or pause the active session directly from the central touchscreen by going into the <strong>Charging</strong> or <strong>Energy</strong> control menu and tapping <strong>Stop Charging</strong>."
-    },
-    {
-        "category": "charging",
-        "icon": "fa-car-battery",
-        "question": "Should I charge the Jaecoo J6 battery to 100%?",
-        "answer": "Yes. The J6 uses a Lithium Iron Phosphate (LFP) battery, which safely supports and actually benefits from being charged to 100% regularly to ensure proper cell balancing by the Battery Management System (BMS)."
-    },
-    {
-        "category": "charging",
-        "icon": "fa-camera",
-        "question": "What causes heavy 12V battery drain when installing dashcams?",
-        "answer": "Parking surveillance modes (such as on the 70mai X800) draw continuous power, prompting owners to recommend installing dedicated external battery packs to reduce strain on the vehicle's 12V battery."
-    },
-    {
-        "category": "range",
-        "icon": "fa-road",
-        "question": "What real-world driving range can owners expect from the Cat A model?",
-        "answer": "While the official claim is 426 km, owners realistically report achieving <strong>300–350 km per charge</strong> depending on driving habits and accessories.<br><br>Some also recommend adjusting tire pressure to 250–280 kPa for a more agile steering feel."
-    },
-    {
-        "category": "range",
-        "icon": "fa-gas-pump",
-        "question": "What should I know about public charging networks like SP and TotalEnergies/BlueSG?",
-        "answer": "<ul><li><strong>SP Chargers:</strong> Commonly used, but carry a strict <strong>$0.50/minute idling fee</strong> after a 30-minute grace period.</li><li><strong>TotalEnergies / BlueSG:</strong> Convenient for overnight charging because they lack idling fees overnight (provided the vehicle is moved by 9 AM), though they charge at a slower ~3kW rate.</li></ul>"
-    },
-    {
-        "category": "mods",
-        "icon": "fa-boxes-packing",
-        "question": "How do I participate in community group buys (e.g., RHD frunks, hydraulic struts)?",
-        "answer": "Group buys are frequently organized by community volunteers in the chat. Members typically transfer a 50% deposit, submit a screenshot confirmation, and coordinate installations with partner workshops or installers (such as Nancy Tay Enterprise at Lengkok Bahru)."
-    },
-    {
-        "category": "mods",
-        "icon": "fa-shield-halved",
-        "question": "Can side steps and roof racks pass local vehicle inspections (LTA compliance)?",
-        "answer": "Yes, aftermarket side steps generally pass inspection as long as they do not exceed the legal overall width of the car. However, owners note that roof racks significantly increase car-wash time and require wind deflectors to mitigate highway wind noise."
-    },
-    {
-        "category": "maintenance",
-        "icon": "fa-wrench",
-        "question": "How do owners fix annoying door rattles or loose internal panels?",
-        "answer": "A popular fix is engaging soundproofing and dampening services for the door panels (single or multi-layer treatment), which reinforces loose clips and panels to eliminate rattles."
-    },
-    {
-        "category": "maintenance",
-        "icon": "fa-triangle-exclamation",
-        "question": "What does the red triangle warning light with a spanner symbol mean?",
-        "answer": "It indicates that the vehicle has reached the <strong>10,000 km service mark</strong>, which requires a quick reset and check at the service centre. (Standard scheduled servicing is required every 20,000 km or 12 months, following an optional 5,000 km check)."
-    },
-    {
-        "category": "tinting",
-        "icon": "fa-sun",
-        "question": "What are owners' opinions on the standard bundled V-Kool window tint?",
-        "answer": "While the complimentary V-Kool film provides decent UV protection, many owners note that its infrared (IR) rejection is weak, causing the dashboard to heat up quickly under scorching weather. Some members recommend asking the dealer for a window film rebate instead so you can opt to install a darker, higher-performance third-party tint (such as Infratint)."
-    },
-    {
-        "category": "tinting",
-        "icon": "fa-credit-card",
-        "question": "How should I manage physical cashcards when using the OBU?",
-        "answer": "If you have an active virtual cashcard (vCashCard) linked, owners strongly advise removing any physical cashcard from the slot to prevent accidental double-charging."
-    },
-    {
-        "category": "vep",
-        "icon": "fa-passport",
-        "question": "How long does the Malaysia VEP RFID registration and installation take?",
-        "answer": "Community members who completed the process shared that VEP RFID registration and physical installation at the Woodlands center is straightforward and typically takes less than 30 minutes."
-    },
-    {
-        "category": "vep",
-        "icon": "fa-file-lines",
-        "question": "How do I register for the Malaysia Vehicle Entry Permit (VEP)?",
-        "answer": "<strong>Step-by-Step VEP Registration Guide:</strong><br><br>1. <strong>Prepare Your Documents:</strong> Have your LTA Vehicle Log Card (downloadable via OneMotoring using Singpass), motor insurance certificate with Malaysia cross-border coverage, and a copy of your NRIC/Passport ready.<br><br>2. <strong>Sign Up on the Portal:</strong> Create an account on the official <a href='https://vep.jpj.gov.my' target='_blank' class='text-emerald-400 underline'>Malaysia VEP Portal</a> and verify your email.<br><br>3. <strong>Submit Vehicle Details:</strong> Log in, fill in your particulars and vehicle specs exactly as they appear on your log card, and upload your digital documents.<br><br>4. <strong>Track Approval & Pay:</strong> Check your status on the <a href='https://vepams.jpj.gov.my' target='_blank' class='text-emerald-400 underline'>VEPAMS Portal</a> and complete the processing fee payment online.<br><br>5. <strong>Collect & Install:</strong> Choose home delivery or install your RFID tag at a designated centre in Johor Bahru. For home delivery, install it on your headlamp, while installation in JB will be on the windscreen."
-    }
-]
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaecoo J6 Owners SG - Knowledge Base & FAQ</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans selection:bg-emerald-500 selection:text-white flex flex-col justify-between">
+    <div>
+        <!-- Header -->
+        <header class="bg-slate-900 border-b border-slate-800 sticky top-0 z-50 backdrop-blur-md bg-opacity-90">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 rounded-xl bg-emerald-600 flex items-center justify-center text-white font-bold text-xl shadow-lg shadow-emerald-900/30">
+                        <i class="fa-solid fa-car-side"></i>
+                    </div>
+                    <div>
+                        <h1 class="font-bold text-lg tracking-tight text-white">Jaecoo J6 Owners SG</h1>
+                        <p class="text-xs text-slate-400">Community Knowledge Base & FAQ</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-2 sm:space-x-3">
+                    <span class="hidden sm:inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium bg-emerald-500/10 text-emerald-400 border border-emerald-500/20">
+                        <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 mr-1.5 animate-pulse"></span>
+                        Active Community DB
+                    </span>
+                    <a href="#supportModal" id="openSupportBtn" class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold bg-amber-500/10 text-amber-400 border border-amber-500/30 hover:bg-amber-500/20 transition-all shadow-lg cursor-pointer">
+                        <i class="fa-solid fa-mug-hot"></i>
+                        <span>Buy Me Milo</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <!-- Hero Search Section -->
+            <div class="mb-8 text-center max-w-2xl mx-auto">
+                <h2 class="text-3xl font-extrabold text-white tracking-tight sm:text-4xl mb-3">
+                    Everything you need to know about the J6
+                </h2>
+                <p class="text-slate-400 text-sm sm:text-base mb-6">
+                    Curated from community chat logs, troubleshooting guides, group buys, and owner experiences in Singapore.
+                </p>
+                <div class="relative">
+                    <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none text-slate-400">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <input type="text" id="searchInput" placeholder="Search keywords (e.g., Android Auto, frunk, V-Kool, LFP battery)..." 
+                        class="w-full pl-11 pr-4 py-3.5 bg-slate-900 border border-slate-800 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:ring-2 focus:ring-emerald-500 focus:border-transparent shadow-xl transition-all">
+                </div>
+            </div>
+
+            <!-- Category Filter Pills (Contacts is placed first) -->
+            <div class="flex flex-wrap justify-center gap-2 mb-8" id="categoryFilters">
+                <button data-category="all" class="category-btn
