@@ -56,20 +56,20 @@
     {
         "category": "range",
         "icon": "fa-gas-pump",
-        "question": "What should I know about public charging networks like SP and TotalEnergies/BlueSG?",
+        "question": "What should I know about public charging networks like SP and ChargePlus?",
         "answer": "<ul><li><strong>SP Chargers:</strong> Commonly used, but carry a strict <strong>$0.50/minute idling fee</strong> after a 30-minute grace period.</li><li><strong>TotalEnergies / BlueSG:</strong> Convenient for overnight charging because they lack idling fees overnight (provided the vehicle is moved by 9 AM), though they charge at a slower ~3kW rate.</li></ul>"
     },
     {
         "category": "mods",
         "icon": "fa-boxes-packing",
         "question": "How do I participate in community group buys (e.g., RHD frunks, hydraulic struts)?",
-        "answer": "Group buys are frequently organized by community volunteers in the chat. Members typically transfer a 50% deposit, submit a screenshot confirmation, and coordinate installations with partner workshops or installers (such as Nancy Tay Enterprise at Lengkok Bahru)."
+        "answer": "Group buys are frequently organized by community volunteers in the chat. Members typically transfer a 50% deposit, submit a screenshot confirmation, and coordinate installations with partner workshops or installers. Look out for GB or other deals in the Telegram chat."
     },
     {
         "category": "mods",
         "icon": "fa-shield-halved",
         "question": "Can side steps and roof racks pass local vehicle inspections (LTA compliance)?",
-        "answer": "Yes, aftermarket side steps generally pass inspection as long as they do not exceed the legal overall width of the car. However, owners note that roof racks significantly increase car-wash time and require wind deflectors to mitigate highway wind noise."
+        "answer": "Yes, aftermarket side steps generally pass inspection as long as they do not exceed the legal overall width of the car. However, owners note that roof racks significantly increase car-wash time and require wind deflectors to mitigate highway wind noise. In addition, to be careful when driving into older multistorey carparks where the height limit is significantly lower."
     },
     {
         "category": "maintenance",
@@ -114,16 +114,10 @@
         "answer": "While the complimentary V-Kool film provides decent UV protection, many owners note that its infrared (IR) rejection is weak, causing the dashboard to heat up quickly under scorching weather. Some members recommend asking the dealer for a window film rebate instead so you can opt to install a darker, higher-performance third-party tint (such as Infratint)."
     },
     {
-        "category": "tinting",
-        "icon": "fa-credit-card",
-        "question": "How should I manage physical cashcards when using the OBU?",
-        "answer": "If you have an active virtual cashcard (vCashCard) linked, owners strongly advise removing any physical cashcard from the slot to prevent accidental double-charging."
-    },
-    {
         "category": "vep",
         "icon": "fa-passport",
         "question": "How long does the Malaysia VEP RFID registration and installation take?",
-        "answer": "Community members who completed the process shared that VEP RFID registration and physical installation at the Woodlands center is straightforward and typically takes less than 30 minutes."
+        "answer": "Community members who completed the process shared that VEP RFID registration and physical installation at the Woodlands center is straightforward and typically takes less than 30 minutes. Similarly, to do at Malaysia is straightforward - book an appointment, and bring the relevant documents (hardcopy). Takes less than 30 minutes if there is no queue. Sunway Big Box branch is relatively quiet, and in the carpark (sheltered) of the mall."
     },
     {
         "category": "vep",
