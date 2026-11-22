@@ -32,7 +32,7 @@
     {
         "category": "charging",
         "icon": "fa-bolt",
-        "question": "How do I stop an active DC charging session if the app or station fails to terminate it?",
+        "question": "How do I stop an active charging session if the app or station fails to terminate it?",
         "answer": "You can manually force-stop or pause the active session directly from the central touchscreen by going into the <strong>Charging</strong> or <strong>Energy</strong> control menu and tapping <strong>Stop Charging</strong>."
     },
     {
@@ -44,8 +44,8 @@
     {
         "category": "charging",
         "icon": "fa-camera",
-        "question": "What causes heavy 12V battery drain when installing dashcams?",
-        "answer": "Parking surveillance modes (such as on the 70mai X800) draw continuous power, prompting owners to recommend installing dedicated external battery packs to reduce strain on the vehicle's 12V battery."
+        "question": "What dashcam function will cause heavy 12V battery drain?",
+        "answer": "Parking surveillance modes draw continuous power, prompting owners to recommend installing dedicated external battery packs to reduce strain on the vehicle's 12V battery. Some dashcam have a voltage cutoff whereby it will stop drawing power from the 12v battery if it's voltage is below the threshold set."
     },
     {
         "category": "range",
