@@ -51,13 +51,13 @@
         "category": "range",
         "icon": "fa-road",
         "question": "What real-world driving range can owners expect from the Cat A model?",
-        "answer": "While the official claim is 426 km, owners realistically report achieving <strong>300–350 km per charge</strong> depending on driving habits and accessories.<br><br>Some also recommend adjusting tire pressure to 250–280 kPa for a more agile steering feel."
+        "answer": "While regional brochures cite 426 km (NEDC), Singapore's official rating for the Cat A RWD (65.69 kWh) is 354 km WLTP Combined (507 km WLTP City). In real-world mixed driving, owners typically achieve <strong>310–360 km per charge</strong>.<br>Personally, my range is 383-385 km at 100%, with average 11.7 kWh/100km on the odometer."
     },
     {
         "category": "range",
         "icon": "fa-gas-pump",
         "question": "What should I know about public charging networks?",
-        "answer": "Public AC Chargers in Singapore mostly ranges from $0.60 onwards. Some in condos might be cheaper. DC chargers, especially the ones in malls likely have idle fee. These will be shown when you use the app. Idle fees kick in when the car is fully charged and after the grace period, usually 15-30mins."
+        "answer": "To charge, you will need to download the app of the company you are charging. Eg. Charge+, SP, GoParkin, ENEReady, etc. Public AC Chargers in Singapore mostly ranges from $0.60 onwards. Some in condos might be cheaper. DC chargers, especially the ones in malls likely have idle fee and cost more. These will be shown when you use the app. Idle fees kick in when the car is fully charged and after the grace period, usually 15-30mins."
     },
     {
         "category": "mods",
