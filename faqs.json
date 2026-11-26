@@ -9,25 +9,49 @@
         "category": "infotainment",
         "icon": "fa-mobile-screen",
         "question": "What should I do if Android Auto or Apple CarPlay fails to connect?",
-        "answer": "Owners recommend two primary troubleshooting steps:<br><br>1. <strong>System Reboot:</strong> Hold down the two scroll/button wheels on the steering wheel for 10 seconds then release to force a system reboot.<br>2. <strong>Deep Reset:</strong> If a reboot doesn't work, lock the car and let it go to sleep for 20–30 minutes, after which the connection typically restores.<br><br><em>Tip: Alternative wireless dongles like 'WizCar' or 'Carlinkit' are also popular among members to bypass native infotainment limitations.</em>"
+        "answer": "Owners recommend a multi-step troubleshooting approach depending on the issue:<br><br>1. <strong>System Reboot & Deep Reset:</strong> Hold down both scroll wheels on the steering wheel for 10 seconds to reboot. If that fails, exit, lock the car, and let it sleep for 20–30 minutes (or 1–2 hours if the Wi-Fi/Bluetooth module overheated after a 3–5 hour continuous drive).<br>2. <strong>Hotspot Activation Fix:</strong> Connect the car's head unit to your phone's personal hotspot or local Wi-Fi first, then launch CarPlay/Android Auto (this often resolves 'Not Activated / Invalid' errors or demo mode warnings).<br>3. <strong>Clear Cache & Re-pair:</strong> Forget the Bluetooth/Wi-Fi pairing on both the car and phone. On Android, clear the Android Auto app cache/data (or uninstall AA updates) and turn off 'Wi-Fi Smart Scanning' in phone settings. On iPhone, turn off any active VPNs, toggle CarPlay off/on in Settings, or restart your phone.<br>4. <strong>Software Updates & Dongles:</strong> Vertex has released firmware updates (such as v2.13) to improve connectivity stability. Alternatively, using a wired USB-A connection or wireless dongles like 'Carlinkit' or 'WizCar' bypasses native head unit quirks."
     },
     {
         "category": "infotainment",
         "icon": "fa-display",
         "question": "What should I do if the main infotainment screen suddenly turns completely black or freezes?",
-        "answer": "If your screen goes blank or locks up, you can perform a hard reboot of the head unit by <strong>pressing and holding both scroll buttons (or wheels) on the steering wheel for about 10 seconds</strong> until the screen goes blank and restarts."
+        "answer": "If your screen goes blank or locks up, you can perform a hard reboot of the head unit by <strong>pressing and holding both scroll buttons (or wheels) on the steering wheel for about 10 seconds</strong> until the screen goes blank and restarts. If the car completely fails to wake up or respond to the key after charging, you may need to use the mechanical key to enter and jump-start the 12V battery."
     },
     {
         "category": "infotainment",
         "icon": "fa-triangle-exclamation",
         "question": "Why did my infotainment system suddenly reset while driving?",
-        "answer": "Occasionally, the system software may encounter a minor background glitch or memory hang, prompting an automated reboot. If it happens infrequently, it is generally harmless. However, if it recurs frequently, owners recommend checking for software updates or reporting it during your next service center visit."
+        "answer": "Occasionally, the system software may encounter a minor background glitch or memory hang, prompting an automated reboot. If it happens infrequently, it is generally harmless. However, if it recurs frequently, owners recommend checking for software updates (such as firmware v2.13) or reporting it during your next service center visit."
     },
     {
         "category": "infotainment",
         "icon": "fa-download",
         "question": "How can I sideload extra apps (like YouTube, Spotify, Waze, or TikTok) onto the native interface?",
-        "answer": "Members have shared preparation guides and instructions to sideload apps using an Android phone and a thumbdrive (often coordinated via community members like Hons)."
+        "answer": "Members have shared preparation guides and instructions to sideload apps (such as Spotify, YouTube, Waze, Google Maps, and Chrome) using an Android phone and a thumbdrive (often coordinated via community members like Hons). <em>Note: Performing a factory reset on the head unit will wipe all sideloaded apps.</em>"
+    },
+    {
+        "category": "infotainment",
+        "icon": "fa-volume-high",
+        "question": "Why does the radio suddenly take over while I'm using Android Auto/CarPlay, or have no sound on startup?",
+        "answer": "This is a known minor software quirk in the head unit. If local radio randomly cuts in over your media, switching back to your media app or using digital radio apps (like meLISTEN) via CarPlay/AA provides cleaner reception. If the radio has no sound upon starting the car, simply toggle to the next radio channel to restore audio."
+    },
+    {
+        "category": "infotainment",
+        "icon": "fa-wifi",
+        "question": "Why is my CarLinko mobile app offline or failing to refresh vehicle status?",
+        "answer": "If the CarLinko app shows 'Poor device network' or stops updating, check the following:<br><ul><li><strong>Phone VPNs:</strong> Turn off any active VPN on your mobile phone, as it blocks the app's connection.</li><li><strong>Signal & Server:</strong> Ensure your car isn't parked in a basement/MSCP dead zone, or check the chat to see if Jaecoo's servers are temporarily down.</li><li><strong>App Update & Reset:</strong> Ensure CarLinko is updated in your app store, or perform a head unit reboot (hold both steering wheels for 10 seconds) to re-establish the vehicle's network module.</li></ul>"
+    },
+    {
+        "category": "infotainment",
+        "icon": "fa-microphone",
+        "question": "Why is 'Hello Jaecoo' voice control not responding or triggering randomly over humps?",
+        "answer": "If voice control isn't responding, ensure <strong>Wake on Voice</strong> is toggled ON in your vehicle settings, and try pronouncing it clearly as <em>'Hello J-coo'</em> (or press the voice button next to the right steering wheel roller). Conversely, if it triggers accidentally over speed humps, minor software glitches or bumps may wake the mic; updating to the latest head unit firmware helps stabilize this."
+    },
+    {
+        "category": "infotainment",
+        "icon": "fa-radio",
+        "question": "Why does the steering wheel roller cycle through all radio frequencies instead of my saved favourites?",
+        "answer": "Owners have noted that the head unit's radio roller is mapped to scan the full frequency band rather than saved favourites, and radio memory may reset after a head unit reboot. For a smoother experience, many owners stream radio via CarPlay/Android Auto using apps like meLISTEN."
     },
     {
         "category": "charging",
@@ -37,15 +61,21 @@
     },
     {
         "category": "charging",
+        "icon": "fa-plug-circle-exclamation",
+        "question": "What should I do if the charging cable is stuck or the charging port flap won't open/closes on its own?",
+        "answer": "<ul><li><strong>Stuck Charging Cable:</strong> Ensure charging has stopped, then press the unlock button on your key fob twice to release the locking pin. If it remains locked, pull the manual emergency release cable located inside the rear boot side trim.</li><li><strong>Flap Won't Open or Auto-Closes:</strong> When not actively charging, the motorized flap may automatically close after a short timeout (even onto the charging gun if left unplugged). If the dashboard button doesn't open it, try gently pressing the flap or locking/unlocking the car.</li></ul>"
+    },
+    {
+        "category": "charging",
         "icon": "fa-car-battery",
         "question": "Should I charge the Jaecoo J6 battery to 100%?",
-        "answer": "Yes. The J6 uses a Lithium Iron Phosphate (LFP) battery, which safely supports and actually benefits from being charged to 100% regularly to ensure proper cell balancing by the Battery Management System (BMS)."
+        "answer": "Yes. The J6 uses a Lithium Iron Phosphate (LFP) battery, which safely supports and actually benefits from being charged to 100% regularly (especially via AC charging after dipping below 10% periodically) to ensure proper cell balancing and accurate range calibration by the Battery Management System (BMS)."
     },
     {
         "category": "charging",
         "icon": "fa-camera",
-        "question": "What dashcam function will cause heavy 12V battery drain?",
-        "answer": "Parking surveillance modes draw continuous power, prompting owners to recommend installing dedicated external battery packs to reduce strain on the vehicle's 12V battery. Some dashcam have a voltage cutoff whereby it will stop drawing power from the 12v battery if it's voltage is below the threshold set."
+        "question": "What dashcam function will cause heavy 12V battery drain, and how does the 12V battery behave?",
+        "answer": "Parking surveillance modes draw continuous power, prompting owners to recommend installing dedicated external battery packs (such as 12V LFP packs) to reduce strain on the vehicle's 12V battery, or ensuring your dashcam has a voltage cutoff.<br><br><em>Note: The J6's BMS monitors the 12V battery every 2 hours and automatically triggers smart charging (around 13.4V) for 2 hours whenever voltage drops below 12.3V—seeing 13.4V while parked is normal and safe.</em>"
     },
     {
         "category": "range",
@@ -57,7 +87,7 @@
         "category": "range",
         "icon": "fa-gas-pump",
         "question": "What should I know about public charging networks?",
-        "answer": "To charge, you will need to download the app of the company you are charging. Eg. Charge+, SP, GoParkin, ENEReady, etc. Public AC Chargers in Singapore mostly ranges from $0.60 onwards. Some in condos might be cheaper. DC chargers, especially the ones in malls likely have idle fee and cost more. These will be shown when you use the app. Idle fees kick in when the car is fully charged and after the grace period, usually 15-30mins."
+        "answer": "To charge, you will need to download the app of the company you are charging with (e.g., Charge+, SP, GoParkin, ENEReady). Public AC chargers in Singapore mostly range from $0.60/kWh onwards, while DC chargers (especially in malls) cost more and enforce idle fees—typically $0.50/min after a 15–30 minute grace period once charging completes. <em>Tip: Ensure your car is in Park/Lock mode if a station gets stuck on 'Activating'.</em>"
     },
     {
         "category": "mods",
@@ -69,25 +99,37 @@
         "category": "mods",
         "icon": "fa-shield-halved",
         "question": "Can side steps and roof racks pass local vehicle inspections (LTA compliance)?",
-        "answer": "Yes, aftermarket side steps generally pass inspection as long as they do not exceed the legal overall width of the car. However, owners note that roof racks significantly increase car-wash time and require wind deflectors to mitigate highway wind noise. In addition, to be careful when driving into older multistorey carparks where the height limit is significantly lower."
+        "answer": "Yes, aftermarket side steps generally pass inspection as long as they do not exceed the legal overall width of the car. However, owners note that roof racks significantly increase car-wash time and require wind deflectors to mitigate highway wind noise. In addition, be careful when driving into older multistorey carparks where the height limit is significantly lower."
+    },
+    {
+        "category": "mods",
+        "icon": "fa-filter",
+        "question": "Should I install a front bumper insect/debris net and upgrade the cabin HEPA air filter?",
+        "answer": "Yes. Owners strongly recommend installing a non-destructive front bumper protective mesh net (available on Taobao) to prevent stones, sand, leaves, and insects from entering the lower air intake and damaging the A/C condenser/compressor. Additionally, replacing the stock cabin HEPA filter (located under the front bonnet/frunk) with an active charcoal filter helps reduce outside exhaust smells."
+    },
+    {
+        "category": "mods",
+        "icon": "fa-plug",
+        "question": "Does the Jaecoo J6 have a functional OBD2 port for aftermarket HUDs or scanners?",
+        "answer": "The J6's OBD2 port is located at the bottom-left area behind the glovebox. However, owners note that it uses an EV-specific protocol—standard ICE OBD2 dongles and generic HUDs generally cannot read speed or battery telemetry from it, though specialized diagnostic scanners can read fault codes."
     },
     {
         "category": "maintenance",
         "icon": "fa-wrench",
         "question": "How do owners fix annoying door rattles or loose internal panels?",
-        "answer": "A popular fix is engaging soundproofing and dampening services for the door panels (single or multi-layer treatment), which reinforces loose clips and panels to eliminate rattles."
+        "answer": "A popular fix is engaging soundproofing and dampening services for the door panels (single or multi-layer treatment), which reinforces loose clips and panels to eliminate rattles. Some owners also note that minor body creaks from expanding metal and plastics tend to settle and disappear naturally after the first 10,000 km."
     },
     {
         "category": "maintenance",
         "icon": "fa-triangle-exclamation",
-        "question": "What does the red triangle warning light with a spanner symbol mean?",
-        "answer": "It indicates that the vehicle has reached the <strong>10,000 km service mark</strong>, which requires a quick reset and check at the service centre. (Standard scheduled servicing is required every 20,000 km or 12 months, following an optional 5,000 km check)."
+        "question": "What does the red triangle warning light with a spanner symbol mean, and how do I check fault codes?",
+        "answer": "It indicates that the vehicle has reached its scheduled service interval (such as the 10,000 km mark), which is factory-locked in Singapore and requires a quick reset at Vertex Service Centre (standard servicing is 5,000 km optional check, 20,000 km / 1 year, and every 10,000 km thereafter).<br><br><em>Tip: To read warning messages in the top-left instrument cluster, press and hold the <strong>left steering wheel thumb wheel</strong> to pop up and scroll through the active fault list.</em>"
     },
     {
         "category": "maintenance",
         "icon": "fa-car-side",
         "question": "How do I fix the ticking or rattling sound coming from the B-pillar right next to my ear?",
-        "answer": "B-pillar rattles are often caused by the seatbelt adjustment mechanism or plastic clips inside the pillar panel. You can check out a visual community demonstration and fix guide here: <a href='https://vt.tiktok.com/ZSp44hLVy/' target='_blank' class='text-emerald-400 underline'>TikTok B-Pillar Rattle Guide</a>."
+        "answer": "B-pillar rattles are often caused by the seatbelt adjustment mechanism, plastic clips inside the pillar panel, or the hollow door panel area right above the armrest. You can check out a visual community demonstration and fix guide here: <a href='https://vt.tiktok.com/ZSp44hLVy/' target='_blank' class='text-emerald-400 underline'>TikTok B-Pillar Rattle Guide</a>, or book an appointment with Vertex for acoustic foam insulation."
     },
     {
         "category": "maintenance",
@@ -99,7 +141,7 @@
         "category": "maintenance",
         "icon": "fa-wrench",
         "question": "What causes rattling sounds coming from the rear tailgate or boot area over bumps?",
-        "answer": "Many owners report that the rear tailgate latch or rubber stoppers/bumpers may need minor adjustment. If the rubber stopper buffers are screwed in too tight or too loose, the tailgate vibrates against the frame over rough roads. Adjusting the height of the rubber twist-buffers on the tailgate corners usually resolves the rattle."
+        "answer": "Many owners report that the rear tailgate latch or rubber stoppers/bumpers may need minor adjustment. If the rubber stopper buffers are screwed in too tight or too loose, the tailgate vibrates against the frame over rough roads. Adjusting the height of the rubber twist-buffers on the tailgate corners (or upgrading the hydraulic struts) usually resolves the rattle."
     },
     {
         "category": "maintenance",
@@ -108,16 +150,58 @@
         "answer": "A common culprit is the rear license plate vibrating against the tailgate body. Owners recommend applying double-sided foam tape, silicone frame pads, or anti-vibration rubber gaskets behind the license plate to cushion it against the car body."
     },
     {
+        "category": "maintenance",
+        "icon": "fa-snowflake",
+        "question": "Why does my aircon blow warm air, turn off briefly, or let exhaust smells in during traffic?",
+        "answer": "<ul><li><strong>Temporary Cut-Off / Warm Air:</strong> The J6 automatically reduces or pauses the A/C compressor under heavy load (such as climbing steep carpark ramps) or when the main battery drops below 10% to conserve energy. Setting the temp to 23°C can also cause intermittent compressor cycling—lowering it to 20–21°C keeps it consistently cold.</li><li><strong>Exhaust Smells in Recirculation Mode:</strong> According to Vertex, the fresh-air intake flap remains ~15% open even in recirculation mode for cabin safety. Upgrading to an active charcoal HEPA filter helps minimize outside fumes.</li><li><strong>Water Puddles & Fan Noise After Parking:</strong> Clear water puddles under the front of the car and fans running after shutdown ('A/C Self Cleaning' mode) are completely normal condensation drainage and drying functions.</li></ul>"
+    },
+    {
+        "category": "maintenance",
+        "icon": "fa-droplet",
+        "question": "How do I fix juddering, squeaking wipers, and how do I spray the front windscreen washer?",
+        "answer": "<ul><li><strong>Wiper Juddering / Squeaking:</strong> Usually caused by hydrophobic windscreen coatings (like Rain-X), hardened stock rubber blades, or misaligned wiper arms. Owners recommend cleaning the blades, adding proper washer fluid, polishing off harsh glass coatings, or upgrading to aftermarket wipers (e.g., Kamatto or Bosch, 21\" & 18\" with M+B adapter) for ~S$39 instead of paying S$120 at the service centre.</li><li><strong>Front Windscreen Washer:</strong> Press the button on the end of the <strong>left steering stalk</strong> firmly past its <em>second detent</em> (a half-press only wipes without spraying).</li></ul>"
+    },
+    {
+        "category": "maintenance",
+        "icon": "fa-wind",
+        "question": "How can I reduce wind noise at highway speeds (above 100 km/h)?",
+        "answer": "Because EVs lack engine noise and the J6 has a boxy silhouette with large side mirrors, wind noise is more noticeable above 100 km/h. Owners recommend applying automotive silicone spray (like Würth or WD-40 Silicone) to soften the stock windscreen/door rubber seals, or pasting additional rubber sound-insulation strips around the front windscreen and door frames."
+    },
+    {
+        "category": "maintenance",
+        "icon": "fa-key",
+        "question": "Why did my car auto-lock with a second key inside, or fail to auto-lock when I walked away?",
+        "answer": "<ul><li><strong>Auto-Locking with Key Inside:</strong> Vertex confirmed it is normal behavior for the J6 to auto-lock as soon as it detects one smart key walking away from the vehicle, even if a spare smart key remains inside.</li><li><strong>Failing to Auto-Lock on Walk-Away:</strong> Check that all doors and the boot are fully closed, ensure your key fob isn't shielded by phones/AirPods in the same pocket, or replace the key fob's coin battery.</li></ul>"
+    },
+    {
+        "category": "maintenance",
+        "icon": "fa-bell",
+        "question": "Why do my hazard lights blink once or twice randomly when stopped or driving in traffic?",
+        "answer": "This is not a fault—it is part of the J6's ADAS Rear Collision / Blind Spot Warning system. When sensors detect a fast-approaching vehicle, motorcycle, or cyclist passing close by in your blind spot, the car automatically flashes the hazard lights briefly to alert them."
+    },
+    {
+        "category": "maintenance",
+        "icon": "fa-gauge-high",
+        "question": "Can I reset the Tire Pressure Monitoring System (TPMS) warning light myself?",
+        "answer": "No. For Singapore-spec J6 units, the TPMS reset option is factory-locked in the head unit. After inflating your cold tires to the recommended <strong>250–280 kPa</strong>, you will need to drop by Vertex Service Centre for a quick, free diagnostic reset if the warning persists."
+    },
+    {
         "category": "tinting",
         "icon": "fa-sun",
         "question": "What are owners' opinions on the standard bundled V-Kool window tint?",
-        "answer": "While the complimentary V-Kool film provides decent UV protection, many owners note that its infrared (IR) rejection is weak, causing the dashboard to heat up quickly under scorching weather. Some members recommend asking the dealer for a window film rebate instead so you can opt to install a darker, higher-performance third-party tint (such as Infratint)."
+        "answer": "While the complimentary V-Kool film provides decent UV protection, many owners note that its infrared (IR) rejection is weak, causing the dashboard to heat up quickly under scorching weather (and metallic tints can slightly weaken stock glass-antenna radio reception). Some members recommend asking the dealer for a window film rebate instead so you can opt for a higher-performance third-party ceramic tint (such as Infratint)."
+    },
+    {
+        "category": "tinting",
+        "icon": "fa-credit-card",
+        "question": "How should I manage physical cashcards when using the OBU?",
+        "answer": "If you have an active virtual cashcard (vCashCard) linked, owners strongly advise removing any physical cashcard from the slot to prevent accidental double-charging."
     },
     {
         "category": "vep",
         "icon": "fa-passport",
         "question": "How long does the Malaysia VEP RFID registration and installation take?",
-        "answer": "Community members who completed the process shared that VEP RFID registration and physical installation at the Woodlands center is straightforward and typically takes less than 30 minutes. Similarly, to do at Malaysia is straightforward - book an appointment, and bring the relevant documents (hardcopy). Takes less than 30 minutes if there is no queue. Sunway Big Box branch is relatively quiet, and in the carpark (sheltered) of the mall."
+        "answer": "Community members who completed the process shared that VEP RFID registration and physical installation at the Woodlands center is straightforward and typically takes less than 30 minutes. Similarly, doing it in Malaysia is straightforward—book an appointment and bring the hardcopy documents. It takes less than 30 minutes if there is no queue (the Sunway Big Box branch is relatively quiet and located in a sheltered mall carpark)."
     },
     {
         "category": "vep",
