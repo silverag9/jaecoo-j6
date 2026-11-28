@@ -37,6 +37,12 @@
     },
     {
         "category": "infotainment",
+        "icon": "fa-radio",
+        "question": "My radio has a sizzling sound.",
+        "answer": "Press the right steering wheel button. When it is silence, press the Jaecoo computer button and say \u201cplay the radio\u201d."
+    },
+    {
+        "category": "infotainment",
         "icon": "fa-wifi",
         "question": "Why is my CarLinko mobile app offline or failing to refresh vehicle status?",
         "answer": "If the CarLinko app shows 'Poor device network' or stops updating, check the following:<br><ul><li><strong>Phone VPNs:</strong> Turn off any active VPN on your mobile phone, as it blocks the app's connection.</li><li><strong>Signal & Server:</strong> Ensure your car isn't parked in a basement/MSCP dead zone, or check the chat to see if Jaecoo's servers are temporarily down.</li><li><strong>App Update & Reset:</strong> Ensure CarLinko is updated in your app store, or perform a head unit reboot (hold both steering wheels for 10 seconds) to re-establish the vehicle's network module.</li></ul>"
